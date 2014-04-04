@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "1.0"
   s.summary      = "Shared config."
   s.license      = 'MIT (example)'
-  s.source       = { :git => "https://github.com/oldschoolindustries/quizlet-shared-config.git", :tag => "v1.0" }
+  s.source       = { :git => "git@github.com:oldschoolindustries/quizlet-shared-config.git", :tag => "v1.0" }
   s.resources  = "config.json"
   s.license      = {
      :type => 'MIT',
