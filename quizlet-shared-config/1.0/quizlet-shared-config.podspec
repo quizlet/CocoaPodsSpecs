@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "1.0"
   s.summary      = "Shared config."
   s.license      = 'MIT (example)'
-  s.source       = { :git => "https://github.com/oldschoolindustries/quizlet-shared-config.git", :tag => "v1.0" }
+  s.source       = { :git => "https://github.com/quizlet/quizlet-shared-config.git", :tag => "v1.0" }
   s.resources  = "config.json"
   s.license      = {
      :type => 'MIT',
@@ -16,6 +16,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
      LICENSE
   }
   s.author       = 'Quizlet'
-  s.homepage = 'https://github.com/oldschoolindustries/quizlet-shared-config'
+  s.homepage = 'https://github.com/quizlet/quizlet-shared-config'
   s.platform = :ios, '6.0'
  end
